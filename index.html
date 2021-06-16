@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="./react-native-logo.png">
+				</section>
+				<section>
+					<section><h3>What is React Native?</h3></section>
+					<section>
+						<p>
+							React Native is an open-source mobile application framework created by Facebook, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling developers to use React's framework along with native platform capabilities.</section>	
+						</p>
+				</section>
+				<section>
+					<section><h3>History</h3></section>
+					<section><p>In 2012 Mark Zuckerberg commented, "The biggest mistake we made as a company was betting too much on HTML as opposed to native". Using HTML5 for Facebook's mobile version resulted in an unstable application that retrieved data slowly. He promised Facebook would soon deliver a better mobile experience.</p></section>
+					<section><p>Inside Facebook, Jordan Walke found a way to generate UI elements for iOS from a background JavaScript thread, which became the basis for the React web framework. They decided to organize an internal Hackathon to perfect this prototype in order to be able to build native apps with this technology.</p></section>
+					<section><p>After months of development, Facebook released the first version for the React JavaScript Configuration in 2015. During a technical talk, Christopher Chedeau explained that Facebook was already using React Native in production for their Group App and their Ads Manager App.</p></section>
+			</section>
+			<section>
+				<section><h3>Who's using React Native?</h3></section>
+				<section><img src="./insta.png"></section>
+				<section><img src="./facebook.png"></section>
+				<section><img src="./discord.png"></section>
+			</section>
+			<section>
+				<section><h3>Why React Native?</h3></section>
+				<section><p>If you need to develop an app for both iOS and Android, React Native is the best tool out there. It can reduce the codebase by about 95%, saving you time and money. On top of that, React Native has a number of open-source libraries of pre-built components which can help you further speed up the development process.</p></section>
+				<section><p>React Native is great for mobile apps. It provides a slick, smooth and responsive user interface, while significantly reducing load time. It’s also much faster and cheaper to build apps in React Native as opposed to building native ones, without the need to compromise on quality and functionality.</p></section>
+				<section><p>Since React Native is based on JavaScript, you will not need long to get to grips with it. Having said this, it’s an open-source and community-driven framework, so if they ever need support, it’s widely available online.</p></section>
+			</section>
+			<section>
+				<section><h3>Flutter vs. React Native</h3></section>
+				<section>
+					<h3>What is Flutter?</h3>
+					<p>Flutter is a portable UI toolkit. In other words, it’s a comprehensive app Software Development Kit (SDK), complete with widgets and tools.</p>
+				</section>
+				<section>
+					<h3>What's Flutter for?</h3>
+					<p>Flutter enables cross-platform app development.
+						It gives developers an easy way to build and deploy visually attractive, natively-compiled applications for mobile (iOS, Android), web, and desktop – all using a single codebase</p>
+				</section>
+				<section><h3>Flutter – pros and cons</h3></section>
+				<section><h5>PROS of Flutter:</h5>
+				<ul>
+					<li>Faster apps</li>
+					<li>Designs users will love</li>
+					<li>Same app UI, even on older devices</li>
+					<li>Perfect for MVPs (Minimum Viable Products)</li>
+				</ul>
+				</section>
+				<section>
+					<h5>Cons of Flutter</h5>
+					<ul>
+						<li>Size of the developer community</li>
+						<li>Libraries & support – impressive, but still not as rich as native development</li>
+						<li>Continuous Integration support</li>
+						<li>Platform risk</li>
+						<li>App’s size</li>
+					</ul>
+				</section>
+				<section><h3>React Native – pros and cons</h3></section>
+				<section>
+					<h5>PROS of React Native:</h5>
+					<ul>
+						<li>It uses a wildly popular language – JavaScript</li>
+						<li>Developer freedom of choice</li>
+						<li>Relative maturity</li>
+						<li>An active – and vast – community</li>
+						<li>Easy to learn for React developers</li>
+					</ul>
+				</section>
+				<section>
+					<h5>CONS of React Native</h5>
+					<ul>
+						<li>It isn’t really Native</li>
+						<li>Fewer components out of box</li>
+						<li>Developer freedom of choice (…both a curse and a blessing)</li>
+						<li>Lots of abandoned packages</li>
+						<li>Fragile UI</li>
+						<li>Apps are bigger than native ones</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section><h3>Conclusion</h3></section>
+				<section><p>React Native is a good choice for projects with simple functionality and many similar entities, such as events, social media, eCommerce, and customer loyalty apps. If you are an established business with a decent amount of customers and the mobile app is not a primary product, choose React Native, as it helps market natively looking apps significantly quicker.</p></section>
+			</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
